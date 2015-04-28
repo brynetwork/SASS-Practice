@@ -1,0 +1,193 @@
+$primary-color: #FDEDDA;
+$footer-color: #F2EEDD;
+
+body{
+  background: $primary-color;
+  text-align: center;
+}
+
+@mixin screen-position($pos, $left-val, $top-val){
+	position: $pos;
+	left: $left-val;
+	top: $top-val;
+}
+
+@mixin div-size($width-val, $height-val){
+	width: $width-val;
+	height: $height-val;
+}
+
+.message{
+	font-size: 24px;
+	font-family: Sans-serif;
+	text-align: center;
+	@include screen-position(absolute, 500px, 30px);
+	
+	span{
+		@include screen-position(absolute, 300px, 50px);
+	}
+}
+
+
+
+.container{
+	p{
+		font-family: Sans-serif;
+		font-size: 24px;
+	}
+}
+
+
+.pcontainer{
+	@include screen-position(absolute, 300px, 170px);
+	@include div-size(863px, 50px);
+	color: #5C4F3F;
+	font-family: Sans-serif;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.c1{
+	align:center;
+}
+
+.ca{
+	@include screen-position(absolute, 250px, 250px);
+	@include div-size(360px, 300px);
+
+	background-color: #EC1E79;
+	color: #FFF;		
+}
+.ca p{
+	@include screen-position(absolute, 50px, 210px);
+}
+.ca img{
+	margin:0;
+	@include screen-position(absolute, 50px, 50px);
+}
+
+
+.cb{ 
+	@include screen-position(absolute, 613px, 250px);
+	@include div-size(503px, 300px);
+}
+
+
+.cb p{
+	@include screen-position(absolute, 20px, 200px);
+	text-align: left;
+	color: #FFF;
+}
+
+
+.c2{
+	clear:both;
+	text-align: center;
+}
+
+.cc{
+	@include screen-position(absolute, 250px, 553px);
+	@include div-size(360px, 150px);
+	background-color: #F6D340;
+}
+
+.cc p{
+	@include screen-position(absolute, 50px, 50px);
+}
+
+.cd{
+	@include screen-position(absolute, 613px, 553px);
+	@include div-size(320px, 150px);
+	background-color: #70D9FF;
+
+}
+
+.cd p{
+	@include screen-position(absolute, 40px, 50px);
+}
+
+.ce{
+	@include screen-position(absolute, 936px, 553px);
+	@include div-size(180px, 150px);
+	background-color: #82DC97;
+
+}
+
+.ce p{
+	@include screen-position(absolute, 50px, 50px);
+}
+
+.footer{
+	@include screen-position(absolute, 250px, 750px);
+	@include div-size(863px, 300px);
+    clear:both;
+    text-align:center;
+	background: $footer-color;
+}
+
+.form-group{
+	@include screen-position(absolute, 230px, 30px);
+}
+
+.som{
+	@include screen-position(absolute, 500px, 10px);
+}
+
+
+.s2{
+	ul{
+		list-style-type:none;
+		text-align: left;
+		font-family: Sans-serif;
+		font-size: 14px;
+	}
+	li{font-weight:bold;}
+	li + li{font-weight:normal;}
+}
+
+
+@mixin list-property($pos, $left-val, $top-val){
+	position: $pos;
+	left: $left-val;
+	top: $top-val;
+}
+
+.l1{ @include list-property(absolute, 20px, 70px);}
+.l2{ @include list-property(absolute, 140px, 70px);}
+.l3{ @include list-property(absolute, 280px, 70px);}
+.l4{ @include list-property(absolute, 400px, 70px);}
+.l5{ @include list-property(absolute, 520px, 70px);}
+.l6{ @include list-property(absolute, 600px, 70px);}
+.l7{ @include list-property(absolute, 700px, 70px);}
+
+
+.s3{
+	font-family: Sans-serif;
+	font-size: 12px;
+	background: $footer-color;
+}
+
+
+.lang{
+	@include screen-position(absolute, 782px, 0);
+	@include div-size(80px, 60px);
+	background: #0072BC;
+}
+
+.lang img{
+	@include screen-position(absolute, 30px, 7px);
+}
+.lang p{
+	@include screen-position(absolute, 5px,25px);
+	font-family: Sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.logo{
+	@include screen-position(absolute, 200px, 220px);
+}
+.s3 p{
+	@include screen-position(absolute, 400px, 240px);
+}
+

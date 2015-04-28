@@ -1,0 +1,285 @@
+/* line 4, ../sass/index.scss */
+body {
+  background: #FDEDDA;
+  text-align: center;
+}
+
+/* line 20, ../sass/index.scss */
+.message {
+  font-size: 24px;
+  font-family: Sans-serif;
+  text-align: center;
+  position: absolute;
+  left: 500px;
+  top: 30px;
+}
+/* line 26, ../sass/index.scss */
+.message span {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+
+/* line 34, ../sass/index.scss */
+.container p {
+  font-family: Sans-serif;
+  font-size: 24px;
+}
+
+/* line 41, ../sass/index.scss */
+.pcontainer {
+  position: absolute;
+  left: 300px;
+  top: 170px;
+  width: 863px;
+  height: 50px;
+  color: #5C4F3F;
+  font-family: Sans-serif;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* line 50, ../sass/index.scss */
+.c1 {
+  align: center;
+}
+
+/* line 54, ../sass/index.scss */
+.ca {
+  position: absolute;
+  left: 250px;
+  top: 250px;
+  width: 360px;
+  height: 300px;
+  background-color: #EC1E79;
+  color: #FFF;
+}
+
+/* line 61, ../sass/index.scss */
+.ca p {
+  position: absolute;
+  left: 50px;
+  top: 210px;
+}
+
+/* line 64, ../sass/index.scss */
+.ca img {
+  margin: 0;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+/* line 70, ../sass/index.scss */
+.cb {
+  position: absolute;
+  left: 613px;
+  top: 250px;
+  width: 503px;
+  height: 300px;
+}
+
+/* line 76, ../sass/index.scss */
+.cb p {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  text-align: left;
+  color: #FFF;
+}
+
+/* line 83, ../sass/index.scss */
+.c2 {
+  clear: both;
+  text-align: center;
+}
+
+/* line 88, ../sass/index.scss */
+.cc {
+  position: absolute;
+  left: 250px;
+  top: 553px;
+  width: 360px;
+  height: 150px;
+  background-color: #F6D340;
+}
+
+/* line 94, ../sass/index.scss */
+.cc p {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+/* line 98, ../sass/index.scss */
+.cd {
+  position: absolute;
+  left: 613px;
+  top: 553px;
+  width: 320px;
+  height: 150px;
+  background-color: #70D9FF;
+}
+
+/* line 105, ../sass/index.scss */
+.cd p {
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+/* line 109, ../sass/index.scss */
+.ce {
+  position: absolute;
+  left: 936px;
+  top: 553px;
+  width: 180px;
+  height: 150px;
+  background-color: #82DC97;
+}
+
+/* line 116, ../sass/index.scss */
+.ce p {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+/* line 120, ../sass/index.scss */
+.footer {
+  position: absolute;
+  left: 250px;
+  top: 750px;
+  width: 863px;
+  height: 300px;
+  clear: both;
+  text-align: center;
+  background: #F2EEDD;
+}
+
+/* line 128, ../sass/index.scss */
+.form-group {
+  position: absolute;
+  left: 230px;
+  top: 30px;
+}
+
+/* line 132, ../sass/index.scss */
+.som {
+  position: absolute;
+  left: 500px;
+  top: 10px;
+}
+
+/* line 138, ../sass/index.scss */
+.s2 ul {
+  list-style-type: none;
+  text-align: left;
+  font-family: Sans-serif;
+  font-size: 14px;
+}
+/* line 144, ../sass/index.scss */
+.s2 li {
+  font-weight: bold;
+}
+/* line 145, ../sass/index.scss */
+.s2 li + li {
+  font-weight: normal;
+}
+
+/* line 155, ../sass/index.scss */
+.l1 {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+
+/* line 156, ../sass/index.scss */
+.l2 {
+  position: absolute;
+  left: 140px;
+  top: 70px;
+}
+
+/* line 157, ../sass/index.scss */
+.l3 {
+  position: absolute;
+  left: 280px;
+  top: 70px;
+}
+
+/* line 158, ../sass/index.scss */
+.l4 {
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+
+/* line 159, ../sass/index.scss */
+.l5 {
+  position: absolute;
+  left: 520px;
+  top: 70px;
+}
+
+/* line 160, ../sass/index.scss */
+.l6 {
+  position: absolute;
+  left: 600px;
+  top: 70px;
+}
+
+/* line 161, ../sass/index.scss */
+.l7 {
+  position: absolute;
+  left: 700px;
+  top: 70px;
+}
+
+/* line 164, ../sass/index.scss */
+.s3 {
+  font-family: Sans-serif;
+  font-size: 12px;
+  background: #F2EEDD;
+}
+
+/* line 171, ../sass/index.scss */
+.lang {
+  position: absolute;
+  left: 782px;
+  top: 0;
+  width: 80px;
+  height: 60px;
+  background: #0072BC;
+}
+
+/* line 177, ../sass/index.scss */
+.lang img {
+  position: absolute;
+  left: 30px;
+  top: 7px;
+}
+
+/* line 180, ../sass/index.scss */
+.lang p {
+  position: absolute;
+  left: 5px;
+  top: 25px;
+  font-family: Sans-serif;
+  font-size: 14px;
+  color: #FFF;
+}
+
+/* line 187, ../sass/index.scss */
+.logo {
+  position: absolute;
+  left: 200px;
+  top: 220px;
+}
+
+/* line 190, ../sass/index.scss */
+.s3 p {
+  position: absolute;
+  left: 400px;
+  top: 240px;
+}
